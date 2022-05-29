@@ -1,0 +1,28 @@
+\documentclass[a4paper]{article}
+\usepackage{polyglossia}
+
+\setdefaultlanguage[calendar=gregorian]{arabic}
+\setotherlanguage{english}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.3]{Amiri} % font for arabic text 
+\parindent 0pt
+\begin{document}
+
+أ ب ت
+
+\vspace{1cm}
+
+\begin{tabular}{*{3}c}
+أ & ب & ت
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{english}
+
+\begin{tabular}{*{3}c}
+a & b & c
+\end{tabular}
+
+\end{english}
+
+\end{document}
